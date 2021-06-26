@@ -36,7 +36,7 @@ export default ({ navigation, route = {} }) => {
                 selected = true;
             } else if(!params.isBaseCurrency && item === quoteCurrency){
                 selected = true;
-            }
+            } 
             
             return (
                   <RowItem 

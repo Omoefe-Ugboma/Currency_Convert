@@ -37,7 +37,8 @@ const styles = StyleSheet.create({
   logoBackground: {
     width: screen.width * 0.45,
     height: screen.width * 0.45,
-    borderRadius:15,
+    borderRadius:5,
+    marginBottom:-20,
   },
   logo: {
     position: "absolute",
